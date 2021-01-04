@@ -81,6 +81,51 @@ application-dev.properties   | Configurações para Desenvolvimento
 application-prod.properties  | Configurações para Produção
 
 </br>
+
+<h2>application.properties</h2>
+
+```properties
+# Local dos arquivos 
+|- /dsdeliver
+  |- src/main/resources
+    |- application.properties
+    |- application-test.properties
+    |- application-dev.properties
+    |- application-prod.properties
+
+# ----------------------------- ARQUIVO application.properties -----------------------
+# seta o profile que está ativo
+spring.profile.active=test    
+
+# 
+spring.jpa.open-in-view=false
+
+# ----------------------------- ARQUIVO application-test.properties -----------------------
+# Caminho para conexão com o banco de testes
+spring.datasource.url=jdbc:h2:mem:testdb 
+
+# usuario do banco de testes
+spring.datasource.username= <informar_usuario> 
+
+# senha do banco de testes
+spring.datasource.password= <informar_senha> 
+
+# ----------------------------- ARQUIVO application-dev.properties -----------------------
+
+
+# ----------------------------- ARQUIVO application-prod.properties -----------------------
+
+
+
+
+
+
+
+```
+
+
+
+</br>
 <h3> 🎲 Rodando o Back end</h3>
 
 ```bash
