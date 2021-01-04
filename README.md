@@ -12,9 +12,15 @@
   <a href="#mobile">Mobile</a>
 </p>
 <!-- ************************************* Baadges ********************************************* -->
-<div align="center">
-<p>Inserir aqui os Badges </p>
-</div>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/brunoemferreira/semana_dev_superior_02?color=%2304D361">
+
+ <img alt="Repository size" src="https://img.shields.io/github/repo-size/brunoemferreira/semana_dev_superior_02">
+
+  <a href="https://github.com/tgmarinho/nlw1/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brunoemferreira/semana_dev_superior_02">
+  </a>
+</p>
 <!-- ************************************* Sobre *********************************************** -->
 <h2 id="sobre"> 🚀 Sobre o Projeto</h2>
 
