@@ -1,5 +1,6 @@
 <h1 align="center" style="color:blue;font-size:50px;font-weight:bold">Semana DevSuperior 2.0</h1>
 <p align="center">De 04/01 à 10/01/2021</p>
+<p align="center">Aula 01 30:48min </p>
 
 <p align="center">
   <a href="#sobre">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -63,13 +64,23 @@ Inserir aqui a Descrição do Projeto.
 
 * Spring Boot
   * Starter Web 
-  * Starter Data JPA
+  * Starter Data JPA ( Mapemaneto Objeto Relacional )
   * Starter Validation
   * Starter Security
   * Starter Test
-* H2
-* PostGreSQL
+* H2 ( Banco de Dados em memória. Usado nos testes da aplicação )
+* PostGreSQL 
 
+<h4 style="font-weight:bold"> ⚙️ Arquivos de Configuração</h4> 
+
+Arquivo                      | Tipo de Configuração
+---------------------------  | ------
+application.properties       | Configurações Gerais
+application-test.properties  | Configurações para Testes
+application-dev.properties   | Configurações para Desenvolvimento
+application-prod.properties  | Configurações para Produção
+
+</br>
 <h3> 🎲 Rodando o Back end</h3>
 
 ```bash
