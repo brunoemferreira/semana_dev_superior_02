@@ -81,10 +81,9 @@ application-dev.properties   | Configurações para Desenvolvimento
 application-prod.properties  | Configurações para Produção
 
 </br>
+<h2>Local dos Arquivos de Configuração</h2>
 
-<h2>application.properties</h2>
-
-```properties
+```bash
 # Local dos arquivos 
 |- /dsdeliver
   |- src/main/resources
@@ -92,15 +91,21 @@ application-prod.properties  | Configurações para Produção
     |- application-test.properties
     |- application-dev.properties
     |- application-prod.properties
+```    
 
-# ----------------------------- ARQUIVO application.properties -----------------------
+<h2>application.properties</h2>
+
+```properties
 # seta o profile que está ativo
 spring.profile.active=test    
 
 # 
 spring.jpa.open-in-view=false
+```
 
-# ----------------------------- ARQUIVO application-test.properties -----------------------
+<h2>application-test.properties</h2>
+
+```properties
 # Caminho para conexão com o banco de testes
 spring.datasource.url=jdbc:h2:mem:testdb 
 
@@ -109,21 +114,32 @@ spring.datasource.username= <informar_usuario>
 
 # senha do banco de testes
 spring.datasource.password= <informar_senha> 
+```
 
-# ----------------------------- ARQUIVO application-dev.properties -----------------------
+<h2>application-dev.properties</h2>
 
+```properties
 
-# ----------------------------- ARQUIVO application-prod.properties -----------------------
+#spring.jpa.properties.javax.persistence.schema-generation.create-source=metadata
+#spring.jpa.properties.javax.persistence.schema-generation.scripts.action=create
+#spring.jpa.properties.javax.persistence.schema-generation.scripts.create-target=create.sql
+#spring.jpa.properties.hibernate.hbm2ddl.delimiter=;
 
+spring.datasource.url=jdbc:postgresql://localhost:5432/dsdeliver
+spring.datasource.username=postgres
+spring.datasource.password=1234567
 
-
-
-
-
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+spring.jpa.hibernate.ddl-auto=none
 
 ```
 
+<h2>application-prod.properties</h2>
 
+```properties
+# Caminho da Base de Dados de Produção
+spring.datasource.url=${DATABASE_URL}
+```
 
 </br>
 <h3> 🎲 Rodando o Back end</h3>
