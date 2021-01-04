@@ -95,10 +95,11 @@ application-prod.properties  | Configurações para Produção
 <h2>application.properties</h2>
 
 ```properties
-# seta o profile que está ativo
+# Seta o profile que ficará ativo
 spring.profile.active=test    
 
-# 
+# Restringe o uso do jpa até a camada de serviço não podendo ser usado para acesso aos dados
+# na camada de controladores REST
 spring.jpa.open-in-view=false
 ```
 
