@@ -80,7 +80,7 @@ application-test.properties  | Configurações para Testes
 application-dev.properties   | Configurações para Desenvolvimento
 application-prod.properties  | Configurações para Produção
 
-<h2>Local dos Arquivos de Configuração</h2>
+<h4> ⚙️ Local dos Arquivos de Configuração</h4>
 
 ```bash
 # Local dos arquivos 
