@@ -1,8 +1,4 @@
-<h1 align="center">
-    <img alt="Logo" src="" width="400px" />
-</h1>
-
-<h1 align="center">Semana DevSuperior 2.0</h1>
+<h1 align="center" style="color:DarkOrange;font-size:50px;font-weight:bold">Semana DevSuperior 2.0</h1>
 <p align="center"></p>
 
 <p align="center">
@@ -132,6 +128,8 @@ INSERT INTO tb_order_product (order_id, product_id) VALUES (7 , 5);
 <h4> 🔨 Tecnologias</h4>
 
 * React
+* JavaScript
+* TypeScript
 
 <h4> ⚙️ Dependências</h4> 
 
