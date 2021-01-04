@@ -9,6 +9,7 @@
   <a href="#sobre">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#modeloconceitual">Modelo Conceitual</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#padraocamadasadotado">Padrão de camadas adotado</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#ferramentas">Ferramentas Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#backend">Back end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#database">Banco de Dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#frontend">Front end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -35,7 +36,19 @@ Inserir aqui a Descrição do Projeto.
 <h1 align="center">
     <img alt="Logo" src="./images/camadas.png" width="500px" />
 </h1>
+<!-- ************************************* Ferramentas Utilizadas ************************** -->
+<h2 id="ferramentas"> 🛠️ Ferramentas Utilizadas</h2>
 
+- [JDK11]('https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html')
+- [STS - Spring Tools Suite]('https://spring.io/tools')
+- [Postman]('https://www.postman.com/downloads/')
+- [Postgres 12 e pgAdmin]('https://www.postgresql.org/download/')
+- [Heroku CLI]('https://devcenter.heroku.com/articles/heroku-cli')
+- [NPM]('https://www.npmjs.com/')
+- [VS Code]('https://code.visualstudio.com/download')
+- [Git]('https://git-scm.com/downloads')
+
+<hr>
 <!-- ************************************* Back End ******************************************** -->
 <h2 id="backend"> 🧰 Back end</h2>
 
