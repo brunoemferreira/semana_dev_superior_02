@@ -58,7 +58,8 @@ Inserir aqui a Descrição do Projeto.
 <h4> 🔨 Tecnologias</h4>
 
 * Java
-* PostGreSQL ( Banco de Dados )
+* PostGreSQL ( Banco de Dados de Produção )
+* H2 ( Banco de Dados de Testes )
 
 <h4> ⚙️ Dependências</h4> 
 
@@ -119,7 +120,7 @@ spring.datasource.password= <informar_senha>
 <h2>application-dev.properties</h2>
 
 ```properties
-
+# Rotinas comentadas são para gerar o script de criação do Banco de Dados
 #spring.jpa.properties.javax.persistence.schema-generation.create-source=metadata
 #spring.jpa.properties.javax.persistence.schema-generation.scripts.action=create
 #spring.jpa.properties.javax.persistence.schema-generation.scripts.create-target=create.sql
@@ -160,7 +161,17 @@ $ npm start
 ```
 
 <hr>
-<h2 id="database"> 🗄️ Banco de Dados ( PostgreSQL )</h2>
+<h2 id="database"> 🗄️ Banco de Dados de Testes ( H2 )</h2>
+
+```
+// Após Rodar o Backend com profile de testes este é o endereço de acesso a interface do Banco
+
+http://localhost:8080/h2-console
+
+```
+
+<hr>
+<h2 id="database"> 🗄️ Banco de Dados Produção ( PostgreSQL )</h2>
 
 <h4> 🔨 Scripts para Popular as Tabelas </h4>
 
