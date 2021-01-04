@@ -73,11 +73,7 @@ $ npm start
 ```
 
 <hr>
-<h2 id="database"> 🗄️ Banco de Dados</h2>
-
-<h4> 🔨 Tecnologias</h4>
-
-* PostGreSQL
+<h2 id="database"> 🗄️ Banco de Dados ( PostgreSQL )</h2>
 
 <h4> 🔨 Scripts para Popular as Tabelas </h4>
 
@@ -120,8 +116,13 @@ INSERT INTO tb_order_product (order_id, product_id) VALUES (7 , 5);
 <!-- ************************************** Front End ****************************************** -->
 <h2 id="frontend"> 🔩 Front end</h2>
 
-<h3 id="tecnologias2"> 🔨 Tecnologias e Dependências</h3>
-- React
+<h4> 🔨 Tecnologias</h4>
+
+* React
+
+<h4> ⚙️ Dependências</h4> 
+
+- 
 
 <h3> 🎲 Rodando o Front end</h3>
 
@@ -131,6 +132,11 @@ $ git clone https://github.com/brunoemferreira/pitu.git
 
 # Acesse a pasta backend
 $ cd backend
+
+# Execute o comando para instalar as dependências
+$ yarn install
+ou
+$ npm install
 
 # execute o comando
 $ yarn start
@@ -144,8 +150,13 @@ $ npm start
 <!-- ***************************************** Mobile ****************************************** -->
 <h2 id="mobile"> 📱 Mobile</h2>
 
-<h3 id="tecnologias3"> 🔨 Tecnologias e Dependências</h3>
-- React Native
+<h4> 🔨 Tecnologias</h4>
+
+* React Native
+
+<h4> ⚙️ Dependências</h4> 
+
+- 
 
 <h3> 🎲 Rodando o Mobile</h3>
 
