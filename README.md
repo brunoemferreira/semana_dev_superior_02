@@ -30,14 +30,14 @@ Inserir aqui a Descrição do Projeto.
 <h2 id="modeloconceitual"> 🗺️ Modelo Conceitual</h2>
 
 <h1 align="center">
-    <img alt="Logo" src="./images/modelo-conceitual.png" width="500px" />
+    <img alt="Logo" src="./images/modelo-conceitual.png" width="600px" />
 </h1>
 
 <!-- ********************************* Padrões de Camadas ************************************** -->
 <h2 id="padraocamadasadotado"> 🛡️ Padrão de camadas adotado</h2>
 
 <h1 align="center">
-    <img alt="Logo" src="./images/camadas.png" width="500px" />
+    <img alt="Logo" src="./images/camadas.png" width="900px" />
 </h1>
 <!-- ************************************* Ferramentas Utilizadas ************************** -->
 <h2 id="ferramentas"> 🛠️ Ferramentas Utilizadas</h2>
@@ -81,6 +81,7 @@ application-test.properties  | Configurações para Testes
 application-dev.properties   | Configurações para Desenvolvimento
 application-prod.properties  | Configurações para Produção
 
+</br>
 <h4> ⚙️ Local dos Arquivos de Configuração</h4>
 
 ```bash
@@ -141,6 +142,58 @@ spring.jpa.hibernate.ddl-auto=none
 # Caminho da Base de Dados de Produção
 spring.datasource.url=${DATABASE_URL}
 ```
+</br>
+<h2 style="font-weight:bold"> 🔚 End Points da API</h2> 
+
+<h3 style="font-weight:bold"> API de Produtos </h3>
+
+| Route             | Response Formats | Resource URL                                 |  Parameters |
+|-------------------|------------------|----------------------------------------------|-------------|
+| GET  /products    | JSON             | http://localhost:8080/products               | None        |
+
+</br>
+
+| Route             | Description                                                                    |
+|-------------------|--------------------------------------------------------------------------------|
+| GET  /products    | Retorna uma lista de todos os Produtos ordenados pelo Id em ordem ascendente   |
+
+</br>
+<h3 style="font-weight:bold">API de Pedidos</h3>
+
+| Route             | Response Formats | Resource URL                                 |  Parameters |
+|-------------------|------------------|----------------------------------------------|-------------|
+| GET  /orders      | JSON             | http://localhost:8080/orders                 | None        |
+| POST /orders      | JSON             | http://localhost:8080/orders                 | JSON Body   |
+| PUT  /orders      | JSON             | http://localhost:8080/orders/{id}/delivered  | Id Order    |
+
+</br>
+
+| Route             | Description                                                                   |
+|-------------------|---------------|
+| GET  /orders      | Retorna o todos os Pedidos 'PENDING' juntamente com os produtos em ordem Ascendente |
+| POST /orders      | Efetua a gravação do Pedido no Banco de Dados juntamente com os Produtos selecionados |
+| PUT  /orders      | Atualiza o Pedido para 'DELIVERED'               |
+
+</br>
+<h3 style="font-weight:bold">POST /orders ( Formato de envio do Pedido )</h3>
+
+```json
+{
+    "address": "Avenida Paulista, 1500",
+    "latitude": -23.56168,
+    "longitude": -46.656139,
+    "products": [
+        {
+            "id": 2
+        },
+        {
+             "id": 5
+        }
+     ]
+}
+```
+
+
 
 </br>
 <h3> 🎲 Rodando o Back end</h3>
