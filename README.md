@@ -170,9 +170,9 @@ spring.datasource.url=${DATABASE_URL}
 
 | Route             | Description                                                                   |
 |-------------------|---------------|
-| GET  /orders      | Retorna o todos os Pedidos 'PENDING' juntamente com os produtos em ordem Ascendente |
+| GET  /orders      | Retorna todos os Pedidos de status 'PENDING' juntamente com os produtos em ordem Ascendente |
 | POST /orders      | Efetua a gravação do Pedido no Banco de Dados juntamente com os Produtos selecionados |
-| PUT  /orders      | Atualiza o Pedido para 'DELIVERED'               |
+| PUT  /orders      | Atualiza o status do Pedido para 'DELIVERED'               |
 
 </br>
 <h3 style="font-weight:bold">POST /orders ( Formato de envio do Pedido )</h3>
