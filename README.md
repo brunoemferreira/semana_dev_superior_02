@@ -1,6 +1,6 @@
 <h1 align="center" style="color:blue;font-size:50px;font-weight:bold">Semana DevSuperior 2.0</h1>
 <p align="center">De 04/01 à 10/01/2021</p>
-<p align="center">Aula 01 01:04:19 hs </p>
+<p align="center">Aula 02 50:00 min </p>
 
 <p align="center">
   <a href="#sobre">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
