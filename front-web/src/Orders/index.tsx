@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import './styles.css';
 import StepsHeader from './StepsHeader';
 import ProductsList from './ProductsList';
-import { Product } from './types';
+import OrderLocation from './OrderLocation';
+import { OrderLocationData, Product } from './types';
 import { fetchProducts } from '../api';
 
 
@@ -10,7 +11,8 @@ import { fetchProducts } from '../api';
 function Orders() {
 
   const [products, setProducts] = useState<Product[]>([]);
-  console.log(products);
+  const [orderLocation, setOrderLocation] = useState<OrderLocationData>();
+
 
   useEffect(() => {
     // chama fetch products
@@ -23,6 +25,7 @@ function Orders() {
     <div className="orders-container">
       <StepsHeader />
       <ProductsList products={products} />
+      <OrderLocation onChangeLocation={location => setOrderLocation(location)} />
     </div>
   )
 }
