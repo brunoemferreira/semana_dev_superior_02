@@ -52,6 +52,21 @@ Inserir aqui a Descrição do Projeto.
 - [Git]('https://git-scm.com/downloads')
 
 <hr>
+
+<!-- *********************************** Imagens do Projeto ************************************ -->
+<h2 id="padraocamadasadotado"> 🖼️ Imagens do Projeto </h2>
+</br>
+<h1 align="center">
+    <img alt="Logo" src="./images/front1.png" width="600px" />
+    <img alt="Logo" src="./images/front2.png" width="600px" />
+    <img alt="Logo" src="./images/front3.png" width="600px" />
+</h1>
+
+
+
+
+
+
 <!-- ************************************* Back End ******************************************** -->
 <h2 id="backend"> 🧰 Back end</h2>
 
@@ -200,7 +215,7 @@ spring.datasource.url=${DATABASE_URL}
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/brunoemferreira/pitu.git
+$ git clone https://github.com/brunoemferreira/semana_dev_superior_02.git
 
 # Acesse a pasta backend
 $ cd backend
@@ -281,10 +296,10 @@ INSERT INTO tb_order_product (order_id, product_id) VALUES (7 , 5);
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/brunoemferreira/pitu.git
+$ git clone https://github.com/brunoemferreira/semana_dev_superior_02.git
 
 # Acesse a pasta backend
-$ cd backend
+$ cd front-web
 
 # Execute o comando para instalar as dependências
 $ yarn install
@@ -315,7 +330,7 @@ $ npm start
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/brunoemferreira/pitu.git
+$ git clone https://github.com/brunoemferreira/semana_dev_superior_02.git
 
 # Acesse a pasta backend
 $ cd backend
