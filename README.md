@@ -282,9 +282,9 @@ INSERT INTO tb_order_product (order_id, product_id) VALUES (7 , 5);
 
 <h4> 🔨 Tecnologias</h4>
 
-* ReactJS
-* JavaScript
-* TypeScript
+- ReactJS
+- JavaScript
+- TypeScript
 
 <h4> ⚙️ Dependências</h4> 
 
