@@ -208,8 +208,6 @@ spring.datasource.url=${DATABASE_URL}
 }
 ```
 
-
-
 </br>
 <h3> 🎲 Rodando o Back end</h3>
 
@@ -284,13 +282,23 @@ INSERT INTO tb_order_product (order_id, product_id) VALUES (7 , 5);
 
 <h4> 🔨 Tecnologias</h4>
 
-* React
+* ReactJS
 * JavaScript
 * TypeScript
 
 <h4> ⚙️ Dependências</h4> 
 
-- 
+- React
+- React Dom
+- Axios
+- Leaflet
+- React Leaflet
+- React Router Dom
+- React Scripts
+- React Select
+- React Toastify
+- Typescript
+- Web Vitals
 
 <h3> 🎲 Rodando o Front end</h3>
 
@@ -313,7 +321,6 @@ $ npm start
 
 # O servidor inciará na porta:3000
 ```
-
 <hr>
 <!-- ***************************************** Mobile ****************************************** -->
 <h2 id="mobile"> 📱 Mobile</h2>
