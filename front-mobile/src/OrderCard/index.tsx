@@ -1,9 +1,17 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function OrderCard() {
   return (
     <View style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.orderName}>Pedido1 </Text>
+        <Text style={styles.orderPrice}>R$ 50,00</Text>
+      </View>
+      <Text style={styles.text}>Há 30min</Text>
+      <View style={styles.productsList}>
+        <Text style={styles.text}>Pizza Calabresa</Text>
+      </View>
     </View>
   );
 }

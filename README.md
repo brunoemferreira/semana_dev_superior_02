@@ -336,7 +336,8 @@ $ npm start
 
 <h4> 🔨 Tecnologias</h4>
 
-* React Native
+- React Native
+- Expo
 
 <h4> ⚙️ Dependências</h4> 
 
@@ -349,7 +350,7 @@ $ npm start
 $ git clone https://github.com/brunoemferreira/semana_dev_superior_02.git
 
 # Acesse a pasta backend
-$ cd backend
+$ cd front-mobile
 
 # execute o comando
 $ yarn start
