@@ -25,8 +25,11 @@
 <!-- ************************************* Sobre *********************************************** -->
 <h2 id="sobre"> 🚀 Sobre o Projeto</h2>
 
-Inserir aqui a Descrição do Projeto.
-<!-- ************************************* Modelo Conceitual ********************************** -->
+O Projeto é um sistema de pedidos onde na WEB é feito o pedido, selecionando os produtos e criando o pedido em si,
+no módulo mobile é onde os pedidos aparecem para que sejam entregues, dentre as funcionalidades estão selecionar o pedido e iniciar a navegação através da chamada do google Maps onde a rota de entrega será mostrada e iniciada pelo mesmo, após 
+a chegada ao destino existe o botão de confirmar entrega que ao selecioná-lo e confirmar a entrega o pedido é retirado da lista de pedidos é marcado como entregue e é retornada uma mensagem que o pedido foi entregue e finalmente o cancelar que somente retorna para a tela de seleção de pedidos.
+
+ <!-- ************************************* Modelo Conceitual ********************************** -->
 <h2 id="modeloconceitual"> 🗺️ Modelo Conceitual</h2>
 
 <h1 align="center">
@@ -68,8 +71,10 @@ Inserir aqui a Descrição do Projeto.
 </br>
 <h1 align="center">
     <img alt="Logo" src="./images/mobile1.jpg" width="300px" />
-    <img alt="Logo" src="./images/mobile1.jpg" width="300px" />
-    <img alt="Logo" src="./images/mobile1.jpg" width="300px" />
+    <img alt="Logo" src="./images/pedidos.jpg" width="300px" />
+    <img alt="Logo" src="./images/entrega.jpg" width="300px" />
+    <img alt="Logo" src="./images/pedido-confirmado.jpg" width="300px" />
+    <img alt="Logo" src="./images/maps.jpg" width="300px" />
 </h1>
 
 
@@ -294,6 +299,7 @@ INSERT INTO tb_order_product (order_id, product_id) VALUES (7 , 5);
 - ReactJS
 - JavaScript
 - TypeScript
+- Expo
 
 <h4> ⚙️ Dependências</h4> 
 
@@ -328,7 +334,6 @@ $ yarn start
 ou
 $ npm start
 
-# O servidor inciará na porta:3000
 ```
 <hr>
 <!-- ***************************************** Mobile ****************************************** -->
@@ -341,9 +346,20 @@ $ npm start
 
 <h4> ⚙️ Dependências</h4> 
 
-- 
+ - Axios
+ - DayJS
+ - Expo
+ - Expo App Loading
+ - Expo Font
+ - Expo Status Bar
+ - Intl
+ - E Bibliotecas React Native... 
 
 <h3> 🎲 Rodando o Mobile</h3>
+
+- É Necessário : 
+    - Ter o Expo Instalado no PC
+    - Ter o Expo Instalado no Celular
 
 ```bash
 # Clone este repositório
@@ -357,7 +373,8 @@ $ yarn start
 ou
 $ npm start
 
-# O servidor inciará na porta:3000
+# O Expo é iniciado no pc mediante o browser e após esse processo acessar o celular e executar o expo
+# e fazer a leitura do QRCode que é mostrado no bowser pelo Expo.
 ```
 
 <hr>
