@@ -10,7 +10,7 @@
   <a href="#backend">Back end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#database">Banco de Dados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#frontend">Front end</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#mobile">Mobile</a>
+  <a href="#mobilemod">Mobile</a>
 </p>
 <!-- ************************************* Baadges ********************************************* -->
 <p align="center">
@@ -76,10 +76,6 @@ a chegada ao destino existe o botão de confirmar entrega que ao selecioná-lo e
     <img alt="Logo" src="./images/pedido-confirmado.jpg" width="300px" />
     <img alt="Logo" src="./images/maps.jpg" width="300px" />
 </h1>
-
-
-
-
 
 <!-- ************************************* Back End ******************************************** -->
 <h2 id="backend"> 🧰 Back end</h2>
@@ -337,7 +333,7 @@ $ npm start
 ```
 <hr>
 <!-- ***************************************** Mobile ****************************************** -->
-<h2 id="mobile"> 📱 Mobile</h2>
+<h2 id="mobilemod"> 📱 Mobile</h2>
 
 <h4> 🔨 Tecnologias</h4>
 
